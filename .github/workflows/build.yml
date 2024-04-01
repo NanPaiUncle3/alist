@@ -41,7 +41,7 @@ jobs:
         run: |
           bash build.sh dev
 
-      - name: Upload artifact
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: alist_${{ env.SHA }}
